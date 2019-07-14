@@ -1,0 +1,2 @@
+2019-05-31 01:15:50 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\websocket-server\node_modules\node-windows\lib\wrapper.js --file C:\websocket-server\index.js --log "ws-server-new wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-05-31 01:15:50 - Started 13328

@@ -1,0 +1,1609 @@
+SERVER LISTENING AT PORT:8003
+[
+  {
+    name: 'abc',
+    password: 'UxVZPhhN',
+    apps: 'powerpoint,word,excel,onenote,adobeaudition,googlesheets,adobeacrobatdistiller,sprite,mathematica,adobebridge,hsminventor,autocad,qucs,nodejs,drjava,opensim,dropbox,solidworks,scratch,bluej,dwsim,firefox,notepad++,chrome,adobeacrobat,adobeaftereffects,adobeanimation,powerbidesktop,adobeillustrator,adobelightroom,adobephotoshop,adobepremiere,quickbooks,tableau,access,outlook,kindle,matlab,googledrive,codeblocks,adobeindesign,adobedreamweaver,solidworksedrawing,solidworkselectrical',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 5320 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix abc -password1 UxVZPhhN -apps1 powerpoint,word,excel,onenote,adobeaudition,googlesheets,adobeacrobatdistiller,sprite,mathematica,adobebridge,hsminventor,autocad,qucs,nodejs,drjava,opensim,dropbox,solidworks,scratch,bluej,dwsim,firefox,notepad++,chrome,adobeacrobat,adobeaftereffects,adobeanimation,powerbidesktop,adobeillustrator,adobelightroom,adobephotoshop,adobepremiere,quickbooks,tableau,access,outlook,kindle,matlab,googledrive,codeblocks,adobeindesign,adobedreamweaver,solidworksedrawing,solidworkselectrical -upn stratussilverlining.com
+NPS>  Command invoke failed
+
+abc
+stratussilverlining.com
+New-ADUser : The password does not meet the length, complexity, or history 
+requirement of the domain.
+At C:\RemoteSessionManagerV0.2\scripts\createAdUserWithUpn.ps1:60 char:17
++ ...     $output=New-ADUser -SamAccountName $_.SamAccountName -UserPrincip ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (CN=abc,CN=Users,DC=hawaiiantel,DC= 
+   com:String) [New-ADUser], ADPasswordComplexityException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:1325,Microsoft.ActiveDirec 
+   tory.Management.Commands.NewADUser
+ 
+{
+    "userName":  null
+}
+
+NPS>  Process 5320 exited with code 0
+
+[
+  {
+    name: 'devraj',
+    password: 'noRMhwZc',
+    apps: 'powerpoint,word,excel,onenote,adobeaudition,googlesheets,adobeacrobatdistiller,sprite,mathematica,adobebridge,hsminventor,autocad,qucs,nodejs,drjava,opensim,dropbox,solidworks,scratch,bluej,dwsim,firefox,notepad++,chrome,adobeacrobat,adobeaftereffects,adobeanimation,powerbidesktop,adobeillustrator,adobelightroom,adobephotoshop,adobepremiere,quickbooks,tableau,access,outlook,kindle,matlab,googledrive,codeblocks,adobeindesign,adobedreamweaver,solidworksedrawing,solidworkselectrical',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 5344 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix devraj -password1 noRMhwZc -apps1 powerpoint,word,excel,onenote,adobeaudition,googlesheets,adobeacrobatdistiller,sprite,mathematica,adobebridge,hsminventor,autocad,qucs,nodejs,drjava,opensim,dropbox,solidworks,scratch,bluej,dwsim,firefox,notepad++,chrome,adobeacrobat,adobeaftereffects,adobeanimation,powerbidesktop,adobeillustrator,adobelightroom,adobephotoshop,adobepremiere,quickbooks,tableau,access,outlook,kindle,matlab,googledrive,codeblocks,adobeindesign,adobedreamweaver,solidworksedrawing,solidworkselectrical -upn stratussilverlining.com
+NPS>  Command invoke failed
+
+devraj
+stratussilverlining.com
+New-ADUser : The password does not meet the length, complexity, or history 
+requirement of the domain.
+At C:\RemoteSessionManagerV0.2\scripts\createAdUserWithUpn.ps1:60 char:17
++ ...     $output=New-ADUser -SamAccountName $_.SamAccountName -UserPrincip ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (CN=devraj,CN=Users,DC=hawaiiantel, 
+   DC=com:String) [New-ADUser], ADPasswordComplexityException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:1325,Microsoft.ActiveDirec 
+   tory.Management.Commands.NewADUser
+ 
+{
+    "userName":  null
+}
+
+NPS>  Process 5344 exited with code 0
+
+[
+  {
+    name: 'mohankumar',
+    password: 'Tpe4Q4Ku',
+    apps: 'powerpoint,word,excel,onenote,adobeaudition,googlesheets,adobeacrobatdistiller,sprite,mathematica,adobebridge,hsminventor,autocad,qucs,nodejs,drjava,opensim,dropbox,solidworks,scratch,bluej,dwsim,firefox,notepad++,chrome,adobeacrobat,adobeaftereffects,adobeanimation,powerbidesktop,adobeillustrator,adobelightroom,adobephotoshop,adobepremiere,quickbooks,tableau,access,outlook,kindle,matlab,googledrive,codeblocks,adobeindesign,adobedreamweaver,solidworksedrawing,solidworkselectrical',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 2160 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix mohankumar -password1 Tpe4Q4Ku -apps1 powerpoint,word,excel,onenote,adobeaudition,googlesheets,adobeacrobatdistiller,sprite,mathematica,adobebridge,hsminventor,autocad,qucs,nodejs,drjava,opensim,dropbox,solidworks,scratch,bluej,dwsim,firefox,notepad++,chrome,adobeacrobat,adobeaftereffects,adobeanimation,powerbidesktop,adobeillustrator,adobelightroom,adobephotoshop,adobepremiere,quickbooks,tableau,access,outlook,kindle,matlab,googledrive,codeblocks,adobeindesign,adobedreamweaver,solidworksedrawing,solidworkselectrical -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+mohankumar
+stratussilverlining.com
+{
+    "userName":  "mohankumar"
+}
+
+NPS>  Process 2160 exited with code 0
+
+[
+  {
+    name: 'ajith',
+    password: 'PrfU4yl6',
+    apps: 'powerpoint,word,excel,onenote,quickbooks,tableau,access,outlook,codeblocks,googledrive,matlab,kindle,solidworkselectrical,solidworksedrawing,adobedreamweaver,adobeindesign,adobepremiere,adobephotoshop,adobelightroom,adobeillustrator,adobeacrobat,adobeaftereffects,adobeanimation,powerbidesktop,dwsim,firefox,notepad++,chrome,dropbox,solidworks,scratch,bluej,qucs,nodejs,drjava,opensim,mathematica,adobebridge,hsminventor,autocad,sprite,adobeacrobatdistiller,googlesheets,adobeaudition',
+    domainName: 'ctl.net'
+  }
+]
+NPS>  Process 5720 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix ajith -password1 PrfU4yl6 -apps1 powerpoint,word,excel,onenote,quickbooks,tableau,access,outlook,codeblocks,googledrive,matlab,kindle,solidworkselectrical,solidworksedrawing,adobedreamweaver,adobeindesign,adobepremiere,adobephotoshop,adobelightroom,adobeillustrator,adobeacrobat,adobeaftereffects,adobeanimation,powerbidesktop,dwsim,firefox,notepad++,chrome,dropbox,solidworks,scratch,bluej,qucs,nodejs,drjava,opensim,mathematica,adobebridge,hsminventor,autocad,sprite,adobeacrobatdistiller,googlesheets,adobeaudition -upn ctl.net
+NPS>  Command invoke finished
+
+ajith
+ctl.net
+ctl.net
+Added ctl.net
+{
+    "userName":  "ajith"
+}
+
+NPS>  Process 5720 exited with code 0
+
+[
+  {
+    name: 'vishnu',
+    password: 'XyWxhksO',
+    apps: 'powerpoint,word,excel,onenote,outlook,access,tableau,quickbooks,codeblocks,googledrive,matlab,kindle,solidworkselectrical,solidworksedrawing,adobedreamweaver,adobeindesign,adobeillustrator,adobelightroom,adobephotoshop,adobepremiere,adobeacrobat,adobeaftereffects,adobeanimation,powerbidesktop,chrome,notepad++,firefox,dwsim,dropbox,solidworks,scratch,bluej,opensim,drjava,nodejs,qucs,autocad,hsminventor,adobebridge,mathematica,sprite,adobeacrobatdistiller,googlesheets,adobeaudition',
+    domainName: 'htcloud.com'
+  }
+]
+NPS>  Process 4800 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix vishnu -password1 XyWxhksO -apps1 powerpoint,word,excel,onenote,outlook,access,tableau,quickbooks,codeblocks,googledrive,matlab,kindle,solidworkselectrical,solidworksedrawing,adobedreamweaver,adobeindesign,adobeillustrator,adobelightroom,adobephotoshop,adobepremiere,adobeacrobat,adobeaftereffects,adobeanimation,powerbidesktop,chrome,notepad++,firefox,dwsim,dropbox,solidworks,scratch,bluej,opensim,drjava,nodejs,qucs,autocad,hsminventor,adobebridge,mathematica,sprite,adobeacrobatdistiller,googlesheets,adobeaudition -upn htcloud.com
+NPS>  Command invoke failed
+
+vishnu
+htcloud.com
+htcloud.com
+Added htcloud.com
+New-ADUser : The password does not meet the length, complexity, or history 
+requirement of the domain.
+At C:\RemoteSessionManagerV0.2\scripts\createAdUserWithUpn.ps1:60 char:17
++ ...     $output=New-ADUser -SamAccountName $_.SamAccountName -UserPrincip ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (CN=vishnu,CN=Users,DC=hawaiiantel, 
+   DC=com:String) [New-ADUser], ADPasswordComplexityException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:1325,Microsoft.ActiveDirec 
+   tory.Management.Commands.NewADUser
+ 
+{
+    "userName":  null
+}
+
+NPS>  Process 4800 exited with code 0
+
+[
+  {
+    name: 'vishnu',
+    password: 'rqF4Atas',
+    apps: 'powerpoint,word,excel,onenote,outlook,access,tableau,quickbooks,codeblocks,googledrive,matlab,kindle,solidworkselectrical,solidworksedrawing,adobedreamweaver,adobeindesign,adobeillustrator,adobelightroom,adobephotoshop,adobepremiere,adobeacrobat,adobeaftereffects,adobeanimation,powerbidesktop,chrome,notepad++,firefox,dwsim,dropbox,solidworks,scratch,bluej,opensim,drjava,nodejs,qucs,autocad,hsminventor,adobebridge,mathematica,sprite,adobeacrobatdistiller,googlesheets,adobeaudition',
+    domainName: 'htcloud.com'
+  }
+]
+NPS>  Process 3772 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix vishnu -password1 rqF4Atas -apps1 powerpoint,word,excel,onenote,outlook,access,tableau,quickbooks,codeblocks,googledrive,matlab,kindle,solidworkselectrical,solidworksedrawing,adobedreamweaver,adobeindesign,adobeillustrator,adobelightroom,adobephotoshop,adobepremiere,adobeacrobat,adobeaftereffects,adobeanimation,powerbidesktop,chrome,notepad++,firefox,dwsim,dropbox,solidworks,scratch,bluej,opensim,drjava,nodejs,qucs,autocad,hsminventor,adobebridge,mathematica,sprite,adobeacrobatdistiller,googlesheets,adobeaudition -upn htcloud.com
+NPS>  Command invoke failed
+
+vishnu
+htcloud.com
+New-ADUser : The specified account already exists
+At C:\RemoteSessionManagerV0.2\scripts\createAdUserWithUpn.ps1:60 char:17
++ ...     $output=New-ADUser -SamAccountName $_.SamAccountName -UserPrincip ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (CN=vishnu,CN=Users,DC=hawaiiant 
+   el,DC=com:String) [New-ADUser], ADIdentityAlreadyExistsException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:1316,Microsoft.ActiveDirec 
+   tory.Management.Commands.NewADUser
+ 
+{
+    "userName":  null
+}
+
+NPS>  Process 3772 exited with code 0
+
+[
+  {
+    name: 'vishnuss',
+    password: 'X1u8z3Ig',
+    apps: 'powerpoint,word,excel,onenote,outlook,access,tableau,quickbooks,codeblocks,googledrive,matlab,kindle,solidworkselectrical,solidworksedrawing,adobedreamweaver,adobeindesign,adobeillustrator,adobelightroom,adobephotoshop,adobepremiere,adobeacrobat,adobeaftereffects,adobeanimation,powerbidesktop,chrome,notepad++,firefox,dwsim,dropbox,solidworks,scratch,bluej,opensim,drjava,nodejs,qucs,autocad,hsminventor,adobebridge,mathematica,sprite,adobeacrobatdistiller,googlesheets,adobeaudition',
+    domainName: 'htcloud.com'
+  }
+]
+NPS>  Process 4912 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix vishnuss -password1 X1u8z3Ig -apps1 powerpoint,word,excel,onenote,outlook,access,tableau,quickbooks,codeblocks,googledrive,matlab,kindle,solidworkselectrical,solidworksedrawing,adobedreamweaver,adobeindesign,adobeillustrator,adobelightroom,adobephotoshop,adobepremiere,adobeacrobat,adobeaftereffects,adobeanimation,powerbidesktop,chrome,notepad++,firefox,dwsim,dropbox,solidworks,scratch,bluej,opensim,drjava,nodejs,qucs,autocad,hsminventor,adobebridge,mathematica,sprite,adobeacrobatdistiller,googlesheets,adobeaudition -upn htcloud.com
+NPS>  Command invoke finished
+
+vishnuss
+htcloud.com
+{
+    "userName":  "vishnuss"
+}
+
+NPS>  Process 4912 exited with code 0
+
+{ username: 'dhanush' }
+NPS>  Process 1640 started
+
+NPS>  Command invoke started
+ ./scripts/userDelete.ps1 -username dhanush
+NPS>  Command invoke finished
+
+
+NPS>  Process 1640 exited with code 0
+
+[
+  {
+    name: 'dhanush',
+    password: '33QuC9ET',
+    apps: 'chrome,notepad++',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 1620 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix dhanush -password1 33QuC9ET -apps1 chrome,notepad++ -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+dhanush
+stratussilverlining.com
+{
+    "userName":  "dhanush"
+}
+
+NPS>  Process 1620 exited with code 0
+
+[
+  {
+    name: 'vishnu',
+    password: 's6w9aQ8u',
+    apps: 'powerpoint,word,excel,onenote,quickbooks,tableau,access,outlook,codeblocks,googledrive,matlab,kindle,solidworkselectrical,solidworksedrawing,adobedreamweaver,adobeindesign,adobepremiere,adobephotoshop,adobelightroom,adobeillustrator,adobeacrobat,adobeaftereffects,adobeanimation,powerbidesktop,dwsim,firefox,notepad++,chrome,dropbox,solidworks,scratch,bluej,qucs,nodejs,drjava,opensim,mathematica,adobebridge,hsminventor,autocad,sprite,adobeacrobatdistiller,googlesheets,adobeaudition',
+    domainName: 'ctl.net'
+  }
+]
+NPS>  Process 3520 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix vishnu -password1 s6w9aQ8u -apps1 powerpoint,word,excel,onenote,quickbooks,tableau,access,outlook,codeblocks,googledrive,matlab,kindle,solidworkselectrical,solidworksedrawing,adobedreamweaver,adobeindesign,adobepremiere,adobephotoshop,adobelightroom,adobeillustrator,adobeacrobat,adobeaftereffects,adobeanimation,powerbidesktop,dwsim,firefox,notepad++,chrome,dropbox,solidworks,scratch,bluej,qucs,nodejs,drjava,opensim,mathematica,adobebridge,hsminventor,autocad,sprite,adobeacrobatdistiller,googlesheets,adobeaudition -upn ctl.net
+NPS>  Command invoke failed
+
+vishnu
+ctl.net
+New-ADUser : The specified account already exists
+At C:\RemoteSessionManagerV0.2\scripts\createAdUserWithUpn.ps1:60 char:17
++ ...     $output=New-ADUser -SamAccountName $_.SamAccountName -UserPrincip ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (CN=vishnu,CN=Users,DC=hawaiiant 
+   el,DC=com:String) [New-ADUser], ADIdentityAlreadyExistsException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:1316,Microsoft.ActiveDirec 
+   tory.Management.Commands.NewADUser
+ 
+{
+    "userName":  null
+}
+
+NPS>  Process 3520 exited with code 0
+
+[
+  {
+    name: 'ram',
+    password: 'or1GH1Lm',
+    apps: 'powerpoint,word,excel,onenote,quickbooks,tableau,access,outlook,codeblocks,googledrive,matlab,kindle,solidworkselectrical,solidworksedrawing,adobedreamweaver,adobeindesign,adobepremiere,adobephotoshop,adobelightroom,adobeillustrator,adobeacrobat,adobeaftereffects,adobeanimation,powerbidesktop,dwsim,firefox,notepad++,chrome,dropbox,solidworks,scratch,bluej,qucs,nodejs,drjava,opensim,mathematica,adobebridge,hsminventor,autocad,sprite,adobeacrobatdistiller,googlesheets,adobeaudition',
+    domainName: 'ctl.net'
+  }
+]
+NPS>  Process 764 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix ram -password1 or1GH1Lm -apps1 powerpoint,word,excel,onenote,quickbooks,tableau,access,outlook,codeblocks,googledrive,matlab,kindle,solidworkselectrical,solidworksedrawing,adobedreamweaver,adobeindesign,adobepremiere,adobephotoshop,adobelightroom,adobeillustrator,adobeacrobat,adobeaftereffects,adobeanimation,powerbidesktop,dwsim,firefox,notepad++,chrome,dropbox,solidworks,scratch,bluej,qucs,nodejs,drjava,opensim,mathematica,adobebridge,hsminventor,autocad,sprite,adobeacrobatdistiller,googlesheets,adobeaudition -upn ctl.net
+NPS>  Command invoke finished
+
+ram
+ctl.net
+{
+    "userName":  "ram"
+}
+
+NPS>  Process 764 exited with code 0
+
+hello
+hello
+[
+  {
+    name: 'johnsno',
+    password: 'oNNhfCLl',
+    apps: 'powerpoint,word,excel,outlook',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 6348 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix johnsno -password1 oNNhfCLl -apps1 powerpoint,word,excel,outlook -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+johnsno
+stratussilverlining.com
+{
+    "userName":  "johnsno"
+}
+
+NPS>  Process 6348 exited with code 0
+
+{ username: 'johnsno' }
+NPS>  Process 4496 started
+
+NPS>  Command invoke started
+ ./scripts/userDelete.ps1 -username johnsno
+NPS>  Command invoke finished
+
+
+NPS>  Process 4496 exited with code 0
+
+[
+  {
+    name: 'johnsno',
+    password: 'N2hRa4CU',
+    apps: 'word,excel,powerpoint',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 1124 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix johnsno -password1 N2hRa4CU -apps1 word,excel,powerpoint -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+johnsno
+stratussilverlining.com
+{
+    "userName":  "johnsno"
+}
+
+NPS>  Process 1124 exited with code 0
+
+[
+  {
+    name: 'dongjinsuh',
+    password: 'eJE52QhE',
+    apps: 'powerpoint,word,excel,onenote',
+    domainName: 'gmail.com'
+  }
+]
+NPS>  Process 6320 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix dongjinsuh -password1 eJE52QhE -apps1 powerpoint,word,excel,onenote -upn gmail.com
+NPS>  Command invoke finished
+
+dongjinsuh
+gmail.com
+gmail.com
+Added gmail.com
+{
+    "userName":  "dongjinsuh"
+}
+
+NPS>  Process 6320 exited with code 0
+
+{ username: 'johnsno' }
+NPS>  Process 5728 started
+
+NPS>  Command invoke started
+ ./scripts/userDelete.ps1 -username johnsno
+NPS>  Command invoke finished
+
+
+NPS>  Process 5728 exited with code 0
+
+[
+  {
+    name: 'johndoe',
+    password: 'PnyRRNyS',
+    apps: 'word,excel,powerpoint',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 6724 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix johndoe -password1 PnyRRNyS -apps1 word,excel,powerpoint -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+johndoe
+stratussilverlining.com
+{
+    "userName":  "johndoe"
+}
+
+NPS>  Process 6724 exited with code 0
+
+{ username: 'dongjinsuh' }
+NPS>  Process 5680 started
+
+NPS>  Command invoke started
+ ./scripts/userDelete.ps1 -username dongjinsuh
+NPS>  Command invoke finished
+
+
+NPS>  Process 5680 exited with code 0
+
+[
+  {
+    name: 'dongjinsuh',
+    password: 'VcypMh2k',
+    apps: 'powerpoint,word,excel,onenote',
+    domainName: 'gmail.com'
+  }
+]
+NPS>  Process 1576 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix dongjinsuh -password1 VcypMh2k -apps1 powerpoint,word,excel,onenote -upn gmail.com
+NPS>  Command invoke finished
+
+dongjinsuh
+gmail.com
+{
+    "userName":  "dongjinsuh"
+}
+
+NPS>  Process 1576 exited with code 0
+
+[
+  {
+    name: 'jayon',
+    password: '1cQHybcL',
+    apps: 'powerpoint,word,excel,onenote',
+    domainName: 'gmail.com'
+  }
+]
+NPS>  Process 1428 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix jayon -password1 1cQHybcL -apps1 powerpoint,word,excel,onenote -upn gmail.com
+NPS>  Command invoke finished
+
+jayon
+gmail.com
+{
+    "userName":  "jayon"
+}
+
+NPS>  Process 1428 exited with code 0
+
+[
+  {
+    name: 'thum',
+    password: 'ZGgoWWWb',
+    apps: 'powerpoint,word,excel,onenote',
+    domainName: 'gmail.com'
+  }
+]
+NPS>  Process 4684 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix thum -password1 ZGgoWWWb -apps1 powerpoint,word,excel,onenote -upn gmail.com
+NPS>  Command invoke finished
+
+thum
+gmail.com
+{
+    "userName":  "thum"
+}
+
+NPS>  Process 4684 exited with code 0
+
+{
+  password: 'teste',
+  locId: '5cddbc66ef57ff2c9060fb1f',
+  name: 'jonsno',
+  email: 'weisernthum@gmail.com'
+}
+NPS>  Process 6968 started
+
+{
+  name: 'test1234',
+  password: 'HG3Q4H',
+  apps: 'SLDWORKS.exe,Kindle.exe',
+  domainName: 'stratussilverlining.com'
+}
+NPS>  Process 4100 started
+
+{
+  name: 'test1',
+  password: 'YNZAKy',
+  apps: 'SLDWORKS.exe,Kindle.exe',
+  domainName: 'ht.com'
+}
+NPS>  Process 6548 started
+
+{
+  name: 'test2',
+  password: 'PYIlmC',
+  apps: 'SLDWORKS.exe,Kindle.exe',
+  domainName: 'stratussilverlining.com'
+}
+NPS>  Process 7060 started
+
+[
+  {
+    name: 'test3',
+    password: 'cXIwou',
+    apps: 'SLDWORKS.exe,Kindle.exe',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 1152 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test3 -password1 cXIwou -apps1 SLDWORKS.exe,Kindle.exe -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test3
+stratussilverlining.com
+{
+    "userName":  "test3"
+}
+
+NPS>  Process 1152 exited with code 0
+
+[
+  {
+    name: 'test3',
+    password: 'u4thLJ',
+    apps: 'SLDWORKS.exe,Kindle.exe',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 1640 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test3 -password1 u4thLJ -apps1 SLDWORKS.exe,Kindle.exe -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test3
+stratussilverlining.com
+{
+    "userName":  "test3"
+}
+
+NPS>  Process 1640 exited with code 0
+
+[
+  {
+    name: 'test4',
+    password: 'pShnWc',
+    apps: 'SLDWORKS.exe,Kindle.exe',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 4324 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test4 -password1 pShnWc -apps1 SLDWORKS.exe,Kindle.exe -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test4
+stratussilverlining.com
+{
+    "userName":  "test4"
+}
+
+NPS>  Process 4324 exited with code 0
+
+[
+  {
+    name: 'test5',
+    password: 'aFqEDq',
+    apps: 'SLDWORKS.exe,Kindle.exe',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 6636 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test5 -password1 aFqEDq -apps1 SLDWORKS.exe,Kindle.exe -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test5
+stratussilverlining.com
+{
+    "userName":  "test5"
+}
+
+NPS>  Process 6636 exited with code 0
+
+[
+  {
+    name: 'test6',
+    password: 'Oq5BiR',
+    apps: 'SLDWORKS.exe,Kindle.exe',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 4572 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test6 -password1 Oq5BiR -apps1 SLDWORKS.exe,Kindle.exe -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test6
+stratussilverlining.com
+{
+    "userName":  "test6"
+}
+
+NPS>  Process 4572 exited with code 0
+
+[
+  {
+    name: 'test7',
+    password: 'IJMSyw',
+    apps: 'SLDWORKS.exe,Kindle.exe',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 5300 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test7 -password1 IJMSyw -apps1 SLDWORKS.exe,Kindle.exe -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test7
+stratussilverlining.com
+{
+    "userName":  "test7"
+}
+
+NPS>  Process 5300 exited with code 0
+
+[
+  {
+    name: 'test8',
+    password: 'A6NLPu',
+    apps: 'SLDWORKS.exe,Kindle.exe',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 2864 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test8 -password1 A6NLPu -apps1 SLDWORKS.exe,Kindle.exe -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test8
+stratussilverlining.com
+{
+    "userName":  "test8"
+}
+
+NPS>  Process 2864 exited with code 0
+
+[
+  {
+    name: 'test9',
+    password: 'bsLqIH',
+    apps: 'SLDWORKS.exe,Kindle.exe',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 5448 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test9 -password1 bsLqIH -apps1 SLDWORKS.exe,Kindle.exe -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test9
+stratussilverlining.com
+{
+    "userName":  "test9"
+}
+
+NPS>  Process 5448 exited with code 0
+
+[
+  {
+    name: 'test10',
+    password: 'El4eaS',
+    apps: 'SLDWORKS.exe,Kindle.exe',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 4428 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test10 -password1 El4eaS -apps1 SLDWORKS.exe,Kindle.exe -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test10
+stratussilverlining.com
+{
+    "userName":  "test10"
+}
+
+NPS>  Process 4428 exited with code 0
+
+[
+  {
+    name: 'test11',
+    password: 'CAmaoc',
+    apps: 'SLDWORKS.exe,Kindle.exe',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 6480 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test11 -password1 CAmaoc -apps1 SLDWORKS.exe,Kindle.exe -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test11
+stratussilverlining.com
+{
+    "userName":  "test11"
+}
+
+NPS>  Process 6480 exited with code 0
+
+[
+  {
+    name: 'test12',
+    password: 'dEfykj',
+    apps: 'SLDWORKS.exe,Kindle.exe',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 4568 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test12 -password1 dEfykj -apps1 SLDWORKS.exe,Kindle.exe -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test12
+stratussilverlining.com
+{
+    "userName":  "test12"
+}
+
+NPS>  Process 4568 exited with code 0
+
+[
+  {
+    name: 'test13',
+    password: 'd0pAdF',
+    apps: 'SLDWORKS.exe,Kindle.exe',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 3504 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test13 -password1 d0pAdF -apps1 SLDWORKS.exe,Kindle.exe -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test13
+stratussilverlining.com
+{
+    "userName":  "test13"
+}
+
+NPS>  Process 3504 exited with code 0
+
+[
+  {
+    name: 'test14',
+    password: 'FZBaLA',
+    apps: 'SLDWORKS.exe,Kindle.exe',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 2636 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test14 -password1 FZBaLA -apps1 SLDWORKS.exe,Kindle.exe -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test14
+stratussilverlining.com
+{
+    "userName":  "test14"
+}
+
+NPS>  Process 2636 exited with code 0
+
+[
+  {
+    name: 'test15',
+    password: 'u0y0GR',
+    apps: 'SLDWORKS.exe,Kindle.exe',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 6412 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test15 -password1 u0y0GR -apps1 SLDWORKS.exe,Kindle.exe -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test15
+stratussilverlining.com
+{
+    "userName":  "test15"
+}
+
+NPS>  Process 6412 exited with code 0
+
+[
+  {
+    name: 'test16',
+    password: 'ML0KHy',
+    apps: 'SLDWORKS.exe,Kindle.exe',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 6412 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test16 -password1 ML0KHy -apps1 SLDWORKS.exe,Kindle.exe -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test16
+stratussilverlining.com
+{
+    "userName":  "test16"
+}
+
+NPS>  Process 6412 exited with code 0
+
+[
+  {
+    name: 'test17',
+    password: 'ASxEY2',
+    apps: 'SLDWORKS.exe,Kindle.exe',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 6996 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test17 -password1 ASxEY2 -apps1 SLDWORKS.exe,Kindle.exe -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test17
+stratussilverlining.com
+{
+    "userName":  "test17"
+}
+
+NPS>  Process 6996 exited with code 0
+
+[
+  {
+    name: 'test18',
+    password: 'EgGBXX',
+    apps: 'SLDWORKS.exe,Kindle.exe',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 6340 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test18 -password1 EgGBXX -apps1 SLDWORKS.exe,Kindle.exe -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test18
+stratussilverlining.com
+{
+    "userName":  "test18"
+}
+
+NPS>  Process 6340 exited with code 0
+
+[
+  {
+    name: 'test19',
+    password: 'jhCN3J',
+    apps: 'SLDWORKS.exe,Kindle.exe',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 6288 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test19 -password1 jhCN3J -apps1 SLDWORKS.exe,Kindle.exe -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test19
+stratussilverlining.com
+{
+    "userName":  "test19"
+}
+
+NPS>  Process 6288 exited with code 0
+
+[
+  {
+    name: 'test20',
+    password: 'amudXS',
+    apps: 'SLDWORKS.exe,Kindle.exe',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 2252 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test20 -password1 amudXS -apps1 SLDWORKS.exe,Kindle.exe -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test20
+stratussilverlining.com
+{
+    "userName":  "test20"
+}
+
+NPS>  Process 2252 exited with code 0
+
+[
+  {
+    name: 'test21',
+    password: 'OAaVt9',
+    apps: 'SLDWORKS.exe,Kindle.exe',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 32 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test21 -password1 OAaVt9 -apps1 SLDWORKS.exe,Kindle.exe -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test21
+stratussilverlining.com
+{
+    "userName":  "test21"
+}
+
+NPS>  Process 32 exited with code 0
+
+[
+  {
+    name: 'test22',
+    password: '0xKLtc',
+    apps: 'SLDWORKS.exe,Kindle.exe',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 6464 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test22 -password1 0xKLtc -apps1 SLDWORKS.exe,Kindle.exe -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test22
+stratussilverlining.com
+{
+    "userName":  "test22"
+}
+
+NPS>  Process 6464 exited with code 0
+
+hello
+[
+  {
+    name: 'test123',
+    password: '8UvoKL',
+    apps: 'SLDWORKS.exe,Kindle.exe',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 1216 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test123 -password1 8UvoKL -apps1 SLDWORKS.exe,Kindle.exe -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test123
+stratussilverlining.com
+{
+    "userName":  "test123"
+}
+
+NPS>  Process 1216 exited with code 0
+
+[
+  {
+    name: 'test1234',
+    password: 'QQDgop',
+    apps: 'SLDWORKS.exe,Kindle.exe',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 2112 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test1234 -password1 QQDgop -apps1 SLDWORKS.exe,Kindle.exe -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test1234
+stratussilverlining.com
+{
+    "userName":  "test1234"
+}
+
+NPS>  Process 2112 exited with code 0
+
+[
+  {
+    name: 'test12345',
+    password: 'p0IKRK',
+    apps: 'SLDWORKS.exe,Kindle.exe',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 3672 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test12345 -password1 p0IKRK -apps1 SLDWORKS.exe,Kindle.exe -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test12345
+stratussilverlining.com
+{
+    "userName":  "test12345"
+}
+
+NPS>  Process 3672 exited with code 0
+
+{ username: 'test123' }
+NPS>  Process 5924 started
+
+NPS>  Command invoke started
+ ./scripts/userDelete.ps1 -username test123
+NPS>  Command invoke finished
+
+
+NPS>  Process 5924 exited with code 0
+
+{ username: 'test123' }
+NPS>  Process 3572 started
+
+NPS>  Command invoke started
+ ./scripts/userDelete.ps1 -username test123
+NPS>  Command invoke failed
+
+Remove-ADUser : Cannot find an object with identity: 'test123' under: 
+'DC=hawaiiantel,DC=com'.
+At C:\RemoteSessionManagerV0.2\scripts\userDelete.ps1:2 char:7
++ $user=Remove-ADUser -Identity $username -Confirm:$false
++       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (test123:ADUser) [Remove-ADUser] 
+   , ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory. 
+   Management.ADIdentityNotFoundException,Microsoft.ActiveDirectory.Managemen  
+  t.Commands.RemoveADUser
+ 
+
+NPS>  Process 3572 exited with code 0
+
+{ username: 'test1234' }
+NPS>  Process 6572 started
+
+NPS>  Command invoke started
+ ./scripts/userDelete.ps1 -username test1234
+NPS>  Command invoke finished
+
+
+NPS>  Process 6572 exited with code 0
+
+{ username: 'test12345' }
+NPS>  Process 5988 started
+
+NPS>  Command invoke started
+ ./scripts/userDelete.ps1 -username test12345
+NPS>  Command invoke finished
+
+
+NPS>  Process 5988 exited with code 0
+
+[
+  {
+    name: 'test123456',
+    password: 'q9j2Ep',
+    apps: 'solidworks,kindle',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 4884 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test123456 -password1 q9j2Ep -apps1 solidworks,kindle -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test123456
+stratussilverlining.com
+{
+    "userName":  "test123456"
+}
+
+NPS>  Process 4884 exited with code 0
+
+{ username: 'test123456' }
+NPS>  Process 5880 started
+
+NPS>  Command invoke started
+ ./scripts/userDelete.ps1 -username test123456
+NPS>  Command invoke finished
+
+
+NPS>  Process 5880 exited with code 0
+
+[
+  {
+    name: 'test1234567',
+    password: 'OkjEck',
+    apps: 'solidworks,kindle',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 6416 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test1234567 -password1 OkjEck -apps1 solidworks,kindle -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test1234567
+stratussilverlining.com
+{
+    "userName":  "test1234567"
+}
+
+NPS>  Process 6416 exited with code 0
+
+{ username: 'test1234567' }
+NPS>  Process 6132 started
+
+NPS>  Command invoke started
+ ./scripts/userDelete.ps1 -username test1234567
+NPS>  Command invoke finished
+
+
+NPS>  Process 6132 exited with code 0
+
+[
+  {
+    name: 'test1234568',
+    password: '5UA0TI',
+    apps: 'solidworks,kindle',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 2484 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test1234568 -password1 5UA0TI -apps1 solidworks,kindle -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test1234568
+stratussilverlining.com
+{
+    "userName":  "test1234568"
+}
+
+NPS>  Process 2484 exited with code 0
+
+{ username: 'test1234568' }
+NPS>  Process 2436 started
+
+NPS>  Command invoke started
+ ./scripts/userDelete.ps1 -username test1234568
+NPS>  Command invoke finished
+
+
+NPS>  Process 2436 exited with code 0
+
+[
+  {
+    name: 'test1234',
+    password: 'VterV5',
+    apps: 'firefox',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 6256 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test1234 -password1 VterV5 -apps1 firefox -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test1234
+stratussilverlining.com
+{
+    "userName":  "test1234"
+}
+
+NPS>  Process 6256 exited with code 0
+
+[
+  {
+    name: 'test12343',
+    password: 'qnmMtS',
+    apps: 'firefox',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 4412 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test12343 -password1 qnmMtS -apps1 firefox -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test12343
+stratussilverlining.com
+{
+    "userName":  "test12343"
+}
+
+NPS>  Process 4412 exited with code 0
+
+[
+  {
+    name: 'test12343s',
+    password: 'EmVLhK',
+    apps: 'firefox',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 968 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test12343s -password1 EmVLhK -apps1 firefox -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test12343s
+stratussilverlining.com
+{
+    "userName":  "test12343s"
+}
+
+NPS>  Process 968 exited with code 0
+
+[
+  {
+    name: 'SDSDSDS',
+    password: 'pBSofz',
+    apps: 'scratch,solidworks,powerbidesktop',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 2208 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix SDSDSDS -password1 pBSofz -apps1 scratch,solidworks,powerbidesktop -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+SDSDSDS
+stratussilverlining.com
+{
+    "userName":  "SDSDSDS"
+}
+
+NPS>  Process 2208 exited with code 0
+
+[
+  {
+    name: 'thum',
+    password: 'h1gFnG',
+    apps: 'solidworks,kindle',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 3352 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix thum -password1 h1gFnG -apps1 solidworks,kindle -upn stratussilverlining.com
+NPS>  Command invoke failed
+
+thum
+stratussilverlining.com
+New-ADUser : The specified account already exists
+At C:\RemoteSessionManagerV0.2\scripts\createAdUserWithUpn.ps1:60 char:17
++ ...     $output=New-ADUser -SamAccountName $_.SamAccountName -UserPrincip ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (CN=thum,CN=Users,DC=hawaiiantel 
+   ,DC=com:String) [New-ADUser], ADIdentityAlreadyExistsException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:1316,Microsoft.ActiveDirec 
+   tory.Management.Commands.NewADUser
+ 
+{
+    "userName":  null
+}
+
+NPS>  Process 3352 exited with code 0
+
+[
+  {
+    name: 'thumDunst',
+    password: '116Rcs',
+    apps: 'solidworks,kindle',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 6744 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix thumDunst -password1 116Rcs -apps1 solidworks,kindle -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+thumDunst
+stratussilverlining.com
+{
+    "userName":  "thumDunst"
+}
+
+NPS>  Process 6744 exited with code 0
+
+[
+  {
+    name: 'jayonDunst',
+    password: 'ulBBSE',
+    apps: 'solidworks,kindle',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 5724 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix jayonDunst -password1 ulBBSE -apps1 solidworks,kindle -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+jayonDunst
+stratussilverlining.com
+{
+    "userName":  "jayonDunst"
+}
+
+NPS>  Process 5724 exited with code 0
+
+[
+  {
+    name: 'jnjnnn',
+    password: 'M5EAsV',
+    apps: 'scratch,solidworks,powerbidesktop',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 432 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix jnjnnn -password1 M5EAsV -apps1 scratch,solidworks,powerbidesktop -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+jnjnnn
+stratussilverlining.com
+{
+    "userName":  "jnjnnn"
+}
+
+NPS>  Process 432 exited with code 0
+
+[
+  {
+    name: 'bjbjb',
+    password: 'YZxGHO',
+    apps: 'firefox',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 5156 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix bjbjb -password1 YZxGHO -apps1 firefox -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+bjbjb
+stratussilverlining.com
+{
+    "userName":  "bjbjb"
+}
+
+NPS>  Process 5156 exited with code 0
+
+[
+  {
+    name: 'test123',
+    password: 'aNJcy8',
+    apps: 'solidworks,kindle',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 2992 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test123 -password1 aNJcy8 -apps1 solidworks,kindle -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test123
+stratussilverlining.com
+{
+    "userName":  "test123"
+}
+
+NPS>  Process 2992 exited with code 0
+
+{ username: 'test123' }
+NPS>  Process 5900 started
+
+NPS>  Command invoke started
+ ./scripts/userDelete.ps1 -username test123
+NPS>  Command invoke finished
+
+
+NPS>  Process 5900 exited with code 0
+
+[
+  {
+    name: 'nknnk',
+    password: 'zvNf5C',
+    apps: 'firefox,kindle',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 4956 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix nknnk -password1 zvNf5C -apps1 firefox,kindle -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+nknnk
+stratussilverlining.com
+{
+    "userName":  "nknnk"
+}
+
+NPS>  Process 4956 exited with code 0
+
+{ username: 'jayon2705' }
+NPS>  Process 1392 started
+
+NPS>  Command invoke started
+ ./scripts/userDelete.ps1 -username jayon2705
+NPS>  Command invoke failed
+
+Remove-ADUser : Cannot find an object with identity: 'jayon2705' under: 
+'DC=hawaiiantel,DC=com'.
+At C:\RemoteSessionManagerV0.2\scripts\userDelete.ps1:2 char:7
++ $user=Remove-ADUser -Identity $username -Confirm:$false
++       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (jayon2705:ADUser) [Remove-ADUse 
+   r], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory. 
+   Management.ADIdentityNotFoundException,Microsoft.ActiveDirectory.Managemen  
+  t.Commands.RemoveADUser
+ 
+
+NPS>  Process 1392 exited with code 0
+
+{ username: 'jayon2705' }
+NPS>  Process 5848 started
+
+NPS>  Command invoke started
+ ./scripts/userDelete.ps1 -username jayon2705
+NPS>  Command invoke failed
+
+Remove-ADUser : Cannot find an object with identity: 'jayon2705' under: 
+'DC=hawaiiantel,DC=com'.
+At C:\RemoteSessionManagerV0.2\scripts\userDelete.ps1:2 char:7
++ $user=Remove-ADUser -Identity $username -Confirm:$false
++       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (jayon2705:ADUser) [Remove-ADUse 
+   r], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory. 
+   Management.ADIdentityNotFoundException,Microsoft.ActiveDirectory.Managemen  
+  t.Commands.RemoveADUser
+ 
+
+NPS>  Process 5848 exited with code 0
+
+[
+  {
+    name: 'jayon',
+    password: 'xuCJCB',
+    apps: 'dropbox,nodejs',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 6420 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix jayon -password1 xuCJCB -apps1 dropbox,nodejs -upn stratussilverlining.com
+NPS>  Command invoke failed
+
+jayon
+stratussilverlining.com
+New-ADUser : The specified account already exists
+At C:\RemoteSessionManagerV0.2\scripts\createAdUserWithUpn.ps1:60 char:17
++ ...     $output=New-ADUser -SamAccountName $_.SamAccountName -UserPrincip ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (CN=jayon,CN=Users,DC=hawaiiante 
+   l,DC=com:String) [New-ADUser], ADIdentityAlreadyExistsException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:1316,Microsoft.ActiveDirec 
+   tory.Management.Commands.NewADUser
+ 
+{
+    "userName":  null
+}
+
+NPS>  Process 6420 exited with code 0
+
+{ username: 'jayon' }
+NPS>  Process 1488 started
+
+NPS>  Command invoke started
+ ./scripts/userDelete.ps1 -username jayon
+NPS>  Command invoke finished
+
+
+NPS>  Process 1488 exited with code 0
+
+[
+  {
+    name: 'test1',
+    password: 'Ju3QJJ',
+    apps: 'dropbox,nodejs',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 736 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test1 -password1 Ju3QJJ -apps1 dropbox,nodejs -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test1
+stratussilverlining.com
+{
+    "userName":  "test1"
+}
+
+NPS>  Process 736 exited with code 0
+
+[
+  {
+    name: 'test2',
+    password: '16qj5B',
+    apps: 'firefox,kindle',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 5672 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix test2 -password1 16qj5B -apps1 firefox,kindle -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+test2
+stratussilverlining.com
+{
+    "userName":  "test2"
+}
+
+NPS>  Process 5672 exited with code 0
+
+{ username: 'test1' }
+NPS>  Process 4820 started
+
+NPS>  Command invoke started
+ ./scripts/userDelete.ps1 -username test1
+NPS>  Command invoke finished
+
+
+NPS>  Process 4820 exited with code 0
+
+{ username: 'test2' }
+NPS>  Process 4500 started
+
+NPS>  Command invoke started
+ ./scripts/userDelete.ps1 -username test2
+NPS>  Command invoke finished
+
+
+NPS>  Process 4500 exited with code 0
+
+[
+  {
+    name: 'jniravel',
+    password: 'JTewhR',
+    apps: 'firefox,kindle',
+    domainName: 'stratussilverlining.com'
+  }
+]
+NPS>  Process 5180 started
+
+NPS>  Command invoke started
+ ./scripts/createAdUserWithUpn.ps1 -userprefix jniravel -password1 JTewhR -apps1 firefox,kindle -upn stratussilverlining.com
+NPS>  Command invoke finished
+
+jniravel
+stratussilverlining.com
+{
+    "userName":  "jniravel"
+}
+
+NPS>  Process 5180 exited with code 0
+

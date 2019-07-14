@@ -1,0 +1,68 @@
+TypeError: Cannot read property 'domainName' of undefined
+    at Object.createADUser (C:\RemoteSessionManagerV0.2\public\create-AD-user.js:21:194)
+    at C:\RemoteSessionManagerV0.2\server.js:18:23
+    at Layer.handle [as handle_request] (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\index.js:275:10)
+    at C:\RemoteSessionManagerV0.2\node_modules\body-parser\lib\read.js:125:5
+    at invokeCallback (C:\RemoteSessionManagerV0.2\node_modules\raw-body\index.js:224:16)
+    at done (C:\RemoteSessionManagerV0.2\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\RemoteSessionManagerV0.2\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:201:15)
+    at endReadableNT (_stream_readable.js:1130:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:17)
+TypeError: Cannot read property 'domainName' of undefined
+    at Object.createADUser (C:\RemoteSessionManagerV0.2\public\create-AD-user.js:21:194)
+    at C:\RemoteSessionManagerV0.2\server.js:18:23
+    at Layer.handle [as handle_request] (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\RemoteSessionManagerV0.2\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\index.js:317:13)
+    at C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\index.js:275:10)
+    at C:\RemoteSessionManagerV0.2\node_modules\body-parser\lib\read.js:125:5
+TypeError: Cannot read property 'domainName' of undefined
+    at Object.createADUser (C:\RemoteSessionManagerV0.2\public\create-AD-user.js:21:194)
+    at C:\RemoteSessionManagerV0.2\server.js:18:23
+    at Layer.handle [as handle_request] (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\RemoteSessionManagerV0.2\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\index.js:317:13)
+    at C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\index.js:275:10)
+    at C:\RemoteSessionManagerV0.2\node_modules\body-parser\lib\read.js:125:5
+TypeError: Cannot read property 'domainName' of undefined
+    at Object.createADUser (C:\RemoteSessionManagerV0.2\public\create-AD-user.js:21:194)
+    at C:\RemoteSessionManagerV0.2\server.js:18:23
+    at Layer.handle [as handle_request] (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\RemoteSessionManagerV0.2\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\index.js:317:13)
+    at C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\RemoteSessionManagerV0.2\node_modules\express\lib\router\index.js:275:10)
+    at C:\RemoteSessionManagerV0.2\node_modules\body-parser\lib\read.js:125:5

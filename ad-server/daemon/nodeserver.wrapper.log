@@ -1,0 +1,2 @@
+2019-05-03 05:15:12 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\mn_admin\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\RemoteSessionManagerV0.2\server.js --log "Node Server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-05-03 05:15:12 - Started 4828
