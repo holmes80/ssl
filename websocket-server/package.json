@@ -15,7 +15,7 @@
     "express": "^4.17.0",
     "express-ws": "^4.0.0",
     "forever": "^1.0.0",
-    "mathjs": "^5.10.3",
+    "mathjs": "^7.5.1",
     "mongoose": "^5.5.3",
     "node-windows": "^0.1.14",
     "nodemon": "^1.19.0",
